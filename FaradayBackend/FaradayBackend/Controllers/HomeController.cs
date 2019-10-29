@@ -10,7 +10,7 @@ namespace FaradayBackend.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "FaradayAPI - A Car Rental API";
 
             return View();
         }
