@@ -1,0 +1,17 @@
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.exe
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.deps.json
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.runtimeconfig.json
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.runtimeconfig.dev.json
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\FaradayBEClient.pdb
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\Grpc.Core.Api.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\Grpc.Net.Client.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\Grpc.Net.Common.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.csprojAssemblyReference.cache
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.AssemblyInfoInputs.cache
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.AssemblyInfo.cs
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.csproj.CopyComplete
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.dll
+C:\Users\mwe1\Desktop\CPH0919\LS\Faraday-BE-gRPC-.2.0.FORK\FaradayBEClient\obj\Debug\netcoreapp3.0\FaradayBEClient.pdb
