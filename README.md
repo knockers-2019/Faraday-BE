@@ -5,7 +5,7 @@
 *Mikkel Ertbjerg*  
 *Nikolaj Dyring*
 
-## [Dependencies](#dependencies)
+## Dependencies
 # Backend
 All of the dependencies can be acquired through Nugget Package Manager:
 - Grpc.AspNetCore
@@ -22,7 +22,7 @@ All of the following dependencies, which can be acquired through the Nugget Pack
 ## Installation
 # With VisualStudio or VisualCode (Or another IDE/Codeeditor with .NET support)
 1. Load the .sln file
-2. Make sure all of the required [dependencies](dependencies) are acquired and installed
+2. Make sure all of the required [dependencies](#dependencies) are acquired and installed
 3. Rebuild FaradayGrpcServer
 4. Launch FaradayGrpcServer (Program.cs)
 
