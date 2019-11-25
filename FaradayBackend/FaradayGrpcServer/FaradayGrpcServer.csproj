@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.23.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="3.0.1" />
     <PackageReference Include="MySql.Data" Version="8.0.18" />
   </ItemGroup>
 
