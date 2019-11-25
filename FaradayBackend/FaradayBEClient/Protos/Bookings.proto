@@ -21,6 +21,7 @@ service Bookings {
 	rpc GetCustomerModel (CustomerId) returns (CustomerModel);
 	rpc CreateCustomerModel (CustomerModel) returns (CustomerId);
 	rpc GetAllCustomerModels (EmptyRequest) returns (stream CustomerModel);
+	rpc GetCustomerModelByDriversLicense (CustomerDriversLicense) returns (CustomerModel);
 	//Locations
 	rpc GetLocationModel (LocationId) returns (LocationModel);
 	rpc GetAllLocationModels (EmptyRequest) returns (stream LocationModel);
@@ -73,6 +74,10 @@ message CustomerModel {
 
 message CustomerId {
 	int32 id = 1;
+}
+
+message CustomerDriversLicense {
+	string drivers_license = 1;
 }
 
 //Locations

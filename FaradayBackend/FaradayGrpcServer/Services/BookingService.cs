@@ -51,6 +51,11 @@ namespace FaradayGrpcServer.Services
             return Task.FromResult(_facade.GetCustomerModel(request));
         }
 
+        public override Task<CustomerModel> GetCustomerModelByDriversLicense(CustomerDriversLicense request, ServerCallContext context)
+        {
+            return Task.FromResult(_facade.GetCustomerModelByDriversLicense(request));
+        }
+
         //Cars
         public override async Task GetAllCarModels(EmptyRequest request, IServerStreamWriter<CarModel> responseStream, ServerCallContext context)
         {

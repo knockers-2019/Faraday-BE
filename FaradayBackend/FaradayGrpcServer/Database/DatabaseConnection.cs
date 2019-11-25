@@ -129,6 +129,32 @@ namespace FaradayGrpcServer.Database
             return customer;
         }
 
+        public CustomerModel GetCustomerModelByDriversLicense(CustomerDriversLicense driversLicense)
+        {
+            string query = $"SELECT * FROM Customers WHERE drivers_license = '{driversLicense.DriversLicense}';";
+            if (connection.State != System.Data.ConnectionState.Open)
+            {
+                this.OpenConnection();
+            }
+            MySqlCommand cmd = new MySqlCommand(query, connection);
+            MySqlDataReader dataReader = cmd.ExecuteReader();
+            CustomerModel customer = new CustomerModel();
+            while (dataReader.Read())
+            {
+                customer.Id = dataReader.GetInt32(0);
+                customer.FirstName = dataReader.GetString(1);
+                customer.LastName = dataReader.GetString(2);
+                customer.Gender = dataReader.GetString(3);
+                customer.DriversLicense = dataReader.GetString(4);
+            };
+            dataReader.Close();
+            if (connection.State != System.Data.ConnectionState.Closed)
+            {
+                this.CloseConnection();
+            }
+            return customer;
+        }
+
         public List<CustomerModel> GetAllCustomerModels()
         {
             string query = $"SELECT * FROM Customers;";

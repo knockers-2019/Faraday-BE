@@ -30,6 +30,11 @@ namespace FaradayGrpcServer.Database
             return _db.GetCustomerModel(customerId);
         }
 
+        public CustomerModel GetCustomerModelByDriversLicense(CustomerDriversLicense driversLicense)
+        {
+            return _db.GetCustomerModelByDriversLicense(driversLicense);
+        }
+
         public List<CustomerModel> GetAllCustomerModels()
         {
             return _db.GetAllCustomerModels();

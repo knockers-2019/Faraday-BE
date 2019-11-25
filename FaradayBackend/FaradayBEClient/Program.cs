@@ -35,9 +35,14 @@ namespace FaradayBEClient
             }
             Console.WriteLine("\n------------------------------------\nPRESS ENTER TO START NEXT TEST");
             Console.ReadLine();
-
             Console.WriteLine("GET CUSTOMER (CustomerId customerId) - Random id between 0-100\n------------------------------------");
             customer = await bookingClient.GetCustomerModelAsync(customerRequest);
+            Console.Write($"ID: {customer.Id}, FN: {customer.FirstName}, LN: {customer.LastName}, SEX: {customer.Gender}, DL: {customer.DriversLicense}");
+
+            Console.WriteLine("\n------------------------------------\nPRESS ENTER TO START NEXT TEST");
+            Console.ReadLine();
+            Console.WriteLine("GET CUSTOMER (DriversLicense driversLicense) - Drivers license from the recently selected Customer\n------------------------------------");
+            customer = await bookingClient.GetCustomerModelByDriversLicenseAsync(new CustomerDriversLicense { DriversLicense = customer.DriversLicense });
             Console.Write($"ID: {customer.Id}, FN: {customer.FirstName}, LN: {customer.LastName}, SEX: {customer.Gender}, DL: {customer.DriversLicense}");
 
             Console.WriteLine("\n------------------------------------\nPRESS ENTER TO START NEXT TEST");
@@ -83,7 +88,7 @@ namespace FaradayBEClient
             Console.WriteLine("ALL CARS\n------------------------------------");
             using (var requestlAllCars = bookingClient.GetAllCarModels(emptyRequest))
             {
-                while(await requestlAllCars.ResponseStream.MoveNext())
+                while (await requestlAllCars.ResponseStream.MoveNext())
                 {
                     car = requestlAllCars.ResponseStream.Current;
                     Console.WriteLine($"ID: {car.Id}, CL-ID: {car.Location.Id}, CL-A: {car.Location.Address}, CL-CI: {car.Location.City}, CL-Z: {car.Location.Zipcode}, CL-CO: {car.Location.Country}," +
