@@ -5,7 +5,7 @@
 *Mikkel Ertbjerg*  
 *Nikolaj Dyring*
 
-## [Dependencies](#Dependencies)
+## (#Dependencies)
 # Backend
 All of the dependencies can be acquired through Nugget Package Manager:
 - Grpc.AspNetCore
