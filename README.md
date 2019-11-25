@@ -38,5 +38,5 @@ _If you wish to test the server with the FaradayBEClient make sure to do the fol
 ## SLA
 
 ## Summary
-The backend is build around [gRPC](https://grpc.io/). gRPC is a message protocol that uses HTTP/2 for transport and [Protocol Buffers](https://developers.google.com/protocol-buffers) as the interface description language. This means that any client that wishes to implement this backend, has to have an identical .proto file, see dependencies(#dependencies).
+The backend is build around [gRPC](https://grpc.io/). gRPC is a message protocol that uses HTTP/2 for transport and [Protocol Buffers](https://developers.google.com/protocol-buffers) as the interface description language. This means that any client that wishes to implement this backend, has to have an identical .proto file, see [dependencies](#dependencies).
 
