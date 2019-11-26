@@ -64,7 +64,7 @@ Team 3 delivers a working piece of software to handle car reservations to team 2
 - Server will genreally be available from 08:00 - 20:00 everyday
 - If you wish to test/use the system at a specific time outside of above time window, contact Nikolai Sjøholm Christiansen
 
-#### Mean tesponse time
+#### Mean response time
 _Disregarding the initial request_
 - Less than 2 seconds
 
